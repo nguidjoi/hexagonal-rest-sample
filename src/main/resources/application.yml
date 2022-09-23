@@ -1,0 +1,12 @@
+sample:
+  security:
+    clientId: "sampleApplication"
+
+spring:
+  security.oauth2.resourceserver.jwt.issuer-uri: "http://localhost:28080/realms/jhipster"
+
+logging.level:
+  org.springframework.security: DEBUG
+
+server:
+  port: 8083
